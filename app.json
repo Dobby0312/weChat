@@ -1,0 +1,36 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "selectedColor": "#005500",
+    "list":[{
+      "pagePath": "pages/index/index",
+      "text":"首页",
+      "iconPath": "assets/image/Desert.jpg",
+      "selectedIconPath": "assets/image/Desert.jpg"
+    },
+    {
+      "pagePath": "pages/logs/logs",
+      "text":"日志",
+      "iconPath": "assets/image/Hydrangeas.jpg",
+      "selectedIconPath": "assets/image/Jellyfish.jpg"
+    }  
+  ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {
+    "van-button":"/miniprogram_npm/vant-weapp/button/index",
+    "van-cell": "/miniprogram_npm/vant-weapp/cell/index",
+    "van-cell-group": "/miniprogram_npm/vant-weapp/cell-group/index"
+  }
+  
+}
